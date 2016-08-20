@@ -1,8 +1,11 @@
-package de.nexum.datatables.controller;
+package javax.example.datatables.controller;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import javax.example.datatables.datatables.DataTablesRequest;
+import javax.example.datatables.datatables.DataTablesResponse;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -10,11 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import de.nexum.datatables.datatables.DataTablesRequest;
-import de.nexum.datatables.datatables.DataTablesResponse;
-
 /**
- * @author <a href="mailto:thomas.weckert@nexum.de">Thomas Weckert</a>
+ * @author Thomas Weckert
  */
 @Controller
 @RequestMapping(value="/api")

@@ -1,4 +1,4 @@
-package de.nexum.datatables.model;
+package javax.example.datatables.model;
 
 import java.util.List;
 

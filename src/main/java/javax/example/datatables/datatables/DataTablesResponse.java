@@ -1,4 +1,4 @@
-package de.nexum.datatables.datatables;
+package javax.example.datatables.datatables;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -7,7 +7,7 @@ import java.util.List;
 import org.codehaus.jackson.annotate.JsonProperty;
 
 /**
- * @author <a href="mailto:thomas.weckert@nexum.de">Thomas Weckert</a>
+ * @author Thomas Weckert
  */
 public class DataTablesResponse<T> implements Serializable {
 
